@@ -2,8 +2,8 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="core.js"></script>
-	<link href="core.css" rel="stylesheet">
+	<script src="www/hexz.js"></script>
+	<link href="www/hexz.css" rel="stylesheet">
 	<title></title>
 </head>
 <body>
@@ -29,7 +29,6 @@
 	
 (function($) {  
   $(document).ready(function() {
-    // Plugin sin parámetros.
     $('#hexz-container').hz();
   });
 })(jQuery);
