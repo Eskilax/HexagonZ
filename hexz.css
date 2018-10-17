@@ -1,0 +1,252 @@
+.hex
+{
+	cursor:pointer;
+	display:inline-block;
+	margin-left: 2px;
+	font-size: 14px !important;
+	background-color: transparent;
+	border: 0px;
+	padding: 0px;
+	margin-top: -26px;
+	overflow: hidden;
+	
+}
+
+.hex:focus {outline:0;}
+
+
+.hex .top 
+{
+	width: 0;
+	border-bottom: 30px solid #3c8dbc;
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+
+}
+
+
+
+.hex .middle 
+{
+	width: 104px;
+	height: 60px;
+	background: #3c8dbc;
+	vertical-align: middle;
+	line-height: 60px;
+	font-size:14px!important;
+	font-weight: bold;
+	font-family: Arial;
+	color:white;
+	text-align:center;
+}
+
+.hex .middle img
+{
+	height:50px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.hex .middle div
+{
+	font-size:10px;
+	overflow:hidden;
+	vertical-align: middle;
+	height:40px;
+}
+
+.hex .bottom 
+{
+	width: 0;
+	border-top: 30px solid #3c8dbc;
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+}
+
+.hex:hover .top 
+{
+	border-bottom: 30px solid #000000!important;
+}
+
+.hex:hover .middle
+{
+	background: #000000!important;
+}
+
+.hex:hover .bottom 
+{
+	border-top: 30px solid #000000!important;
+}
+
+.hexmargin
+{
+	margin-left:55px;
+}
+
+.hex-transitionexpand 
+{
+    -webkit-transform: scale(1.3); 
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.hex-transitioncollapse 
+{
+    -webkit-transform: scale(0.7); 
+    -moz-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+
+/*CONTENEDOR*/
+.hex-lines,.hex-lines-black, .hex-lines-center
+{
+	padding-top:30px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+.hex-lines-center
+{
+	text-align:center!important;
+	padding-left:0px;
+}
+
+.hex-lines-black
+{
+	border:1px solid black;
+	background-color: #222222;
+}
+
+
+
+
+.hexmargin-left
+{
+	margin-left: 52px; 
+}
+
+.hexmargin-right
+{
+	margin-right: 52px; 
+}
+.hexmargin-right-2
+{
+	margin-right: 104px; 
+}
+
+.hexmargin-left-doble
+{
+	margin-left: 109px;
+}
+
+.hexmargin-right-doble
+{
+	margin-right: 108px;
+}
+
+
+/*DOBLE*/
+.hex2 .middle
+{
+	width: 212px!important;
+}
+
+
+.hex2 .top 
+{
+	border-left: 53px solid transparent;
+	border-right: 53px solid transparent;
+
+}
+.hex2 .bottom 
+{
+	border-left: 53px solid transparent;
+	border-right: 53px solid transparent;
+}
+
+.hex-text-bottom .middle
+{
+	vertical-align: bottom!important;
+}
+
+.hex-line-normal .middle
+{
+	line-height:2!important;
+}
+
+/*SM*/
+
+.hex-sm
+{
+	margin-left: 1px;
+	font-size:6;
+	margin-top:-13px;
+}
+
+.hex-sm .top 
+{
+	border-bottom: 15px solid #3c8dbc;
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+
+}
+
+.hex-sm .middle 
+{
+	width: 52px;
+	height: 31px;
+	line-height: 31px;
+
+
+}
+
+.hex-sm .bottom 
+{
+	border-top: 15px solid #3c8dbc;
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+
+}
+
+.hex-sm:hover .top 
+{
+	border-bottom: 15px solid #000000;
+
+}
+
+.hex-sm:hover .bottom 
+{
+	border-top: 15px solid #000000;
+}
+
+
+.hex-sm.hexmargin
+{
+	margin-left:28px;
+}
+
+
+/*DOBLE*/
+.hex-sm.hex2 .middle
+{
+	width: 106px;
+}
+
+.hex-sm.hex2 .top 
+{
+	border-left: 26.5px solid transparent;
+	border-right: 26.5px solid transparent;
+
+}
+.hex-sm.hex2 .bottom 
+{
+	border-left: 26.5px solid transparent;
+	border-right: 26.5px solid transparent;
+}
