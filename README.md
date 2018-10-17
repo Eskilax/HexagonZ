@@ -10,11 +10,11 @@ Esta librería transforma los divs que tengas dentro de un elemento superior en 
 ## Ejemplos de uso
 
 ```javascript
-  $('.panel_de_hexagonos').HexagonZ();
-  $('.panel_de_hexagonos').HexZ();
-  $('.panel_de_hexagonos').HZ();
+  $('#panel_de_hexagonos').HexagonZ();
+  $('#panel_de_hexagonos').HexZ();
+  $('#panel_de_hexagonos').HZ();
   
-  $('.panel_de_hexagonos').hexagonz();
-  $('.panel_de_hexagonos').hexz();
-  $('.panel_de_hexagonos').hz();
+  $('#panel_de_hexagonos').hexagonz();
+  $('#panel_de_hexagonos').hexz();
+  $('#panel_de_hexagonos').hz();
 ```
